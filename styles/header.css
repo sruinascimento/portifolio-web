@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    background-color: #0C0D0D;
+    position: fixed;
+    height: 50px;
+    z-index: 1;
+
+}
+
+header ul {
+    text-align: center;
+    
+}
+
+.nav-itens {
+    margin-top: 12px;
+}
+
+.nav-itens li {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.nav-itens li a{
+    color: #AC2CFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-itens li:not(:last-child):after {
+    content: "•";
+    color: #AC2CFF;
+    font-size: 20px;
+    margin: 0 15px;
+}

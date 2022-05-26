@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #0C0D0D;
+    font-size: 18px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer div p {
+    margin-top: 10px ;
+}
