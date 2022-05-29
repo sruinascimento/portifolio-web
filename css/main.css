@@ -179,3 +179,18 @@ main {
     margin-left: 20px;
     margin-bottom: 30px;
 }
+ 
+#interesses img {
+    padding: 10px 5px 20px;
+    position: relative;
+    left: 30px;
+} 
+
+#interesses img:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.display-texto-interesse {
+    display: none;
+}
