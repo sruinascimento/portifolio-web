@@ -166,7 +166,7 @@ main {
     /* padding-bottom: 20px; */
 }
 
-.textos-centralizados li {
+.textos-centralizados li, #texto-interesse-apresentado {
     width: 40%;
     display: inline-block;
     height: 70px;
@@ -193,4 +193,9 @@ main {
 
 .display-texto-interesse {
     display: none;
+}
+
+#texto-interesse-apresentado {
+    margin-left: 125px;
+    width: 32% ;
 }
