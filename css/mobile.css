@@ -1,0 +1,77 @@
+@media screen and (max-width: 1024px) {
+  .nav-itens {
+      display: none;
+  }
+
+   body {
+      width: 1024px;
+  } 
+
+  main {
+      margin: o auto;
+  }
+  .dados-e-avatar {
+      height: 520px;
+  }
+
+  .avatar {
+      width: 30%;
+      position: relative;
+      top: -70px;
+      left: -30px;
+  }
+
+  .dados-completo {
+      position: relative;
+      top: 200px;
+      left: 300px;
+  }
+
+  .redes-sociais {
+      position: relative;
+      top: 260px;
+      /* right: -100px; */
+      left: -270px;
+  }
+
+  .redes-sociais ul li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+
+  #sobre-mim * {
+      position: relative;
+  }
+
+  #sobre-mim img{
+    top: -80px;
+    left: 250px;
+  } 
+
+  #sobre-mim h3 {
+      top: -30px;
+      left: 100px;
+  }
+
+  #sobre-mim p {
+    top: 100px;
+    left: -100px
+  }
+
+  #formacao {
+      padding-top: 5em;
+  }
+
+  .textos-centralizados, .textos-centralizados li {
+      text-align: center;
+      margin: 0 auto 15px auto;
+  }
+  .textos-centralizados li {
+    display: block;
+  }
+
+  #texto-interesse-apresentado {
+      margin-left: 350px;
+  }
+
+}
