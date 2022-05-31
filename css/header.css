@@ -1,17 +1,21 @@
 header {
     width: 100%;
     /* background-color: #0C0D0D; */
-   
+    background-color: #0C0D0D;  
+    height: 50px;
+    z-index: 1;
+    position: fixed;
 
+}
+
+.nav-mobile {
+    display: none;
 }
 
 header ul {
     width: 100%;
     text-align: center;
-    position: fixed;
-    height: 50px;
-    z-index: 1;
-    background-color: #0C0D0D;
+   
 
     
 }

@@ -1,7 +1,17 @@
 @media screen and (max-width: 1024px) {
-  .nav-itens {
+
+     
+    .nav-itens {
       display: none;
-  }
+    }
+
+    .nav-mobile {
+        /* display: inline-block; */
+        position: absolute;
+    }
+  .nav-mobile:hover {
+    cursor: pointer;
+  } 
 
    body {
       width: 1024px;
@@ -72,6 +82,10 @@
 
   #texto-interesse-apresentado {
       margin-left: 350px;
+  }
+
+  .nav-mobile:hover {
+    cursor: pointer;
   }
 
 }
