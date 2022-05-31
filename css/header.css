@@ -5,7 +5,6 @@ header {
     height: 50px;
     z-index: 1;
     position: fixed;
-
 }
 
 .nav-mobile {
@@ -15,26 +14,23 @@ header {
 header ul {
     width: 100%;
     text-align: center;
-   
-
-    
 }
 
 .nav-itens li {
     display: inline-block;
     margin: auto 0;
-    padding: 1.15em;
+    padding-top: 1.15em;
 }
 
 .nav-itens li a{
-    color: #AC2CFF;
-    font-size: 22px;
+    color: #F2BB13;
+    font-size: 18px;
     text-decoration: none;
 }
 
 .nav-itens li:not(:last-child):after {
     content: "•";
-    color: #AC2CFF;
-    font-size: 20px;
+    color: #F2BB13;
+    font-size: 18px;
     margin: 0 10px;
 }

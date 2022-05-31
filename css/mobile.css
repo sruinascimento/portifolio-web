@@ -20,6 +20,11 @@
   main {
       margin: o auto;
   }
+
+  .conteudo-central section, #sobre-mim, #display-oculto-amostra {
+    width: 400px;
+    margin: 0 auto;
+  }
   .dados-e-avatar {
       height: 520px;
   }
@@ -49,43 +54,26 @@
     padding: 0 5px;
   }
 
-  #sobre-mim * {
-      position: relative;
+   
+  .container-sobre-mim {
+    width: 88%;
   }
 
-  #sobre-mim img{
-    top: -80px;
-    left: 250px;
-  } 
-
-  #sobre-mim h3 {
-      top: -30px;
-      left: 100px;
+  #sobre-mim img {
+    margin-left: 80px;
+    margin-bottom: 10px;
   }
 
-  #sobre-mim p {
-    top: 100px;
-    left: -100px
+  .footer-centralizado {
+    width: 240px;
+    margin: 0 auto;
   }
 
-  #formacao {
-      padding-top: 5em;
+  .footer-centralizado img {
+    text-align: center;
   }
 
-  .textos-centralizados, .textos-centralizados li {
-      text-align: center;
-      margin: 0 auto 15px auto;
-  }
-  .textos-centralizados li {
-    display: block;
-  }
 
-  #texto-interesse-apresentado {
-      margin-left: 350px;
-  }
 
-  .nav-mobile:hover {
-    cursor: pointer;
-  }
-
+  
 }
