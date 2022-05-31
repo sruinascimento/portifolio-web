@@ -1,5 +1,13 @@
 @media screen and (max-width: 1024px) {
 
+  header {
+    width: 1024px;
+    position: absolute;
+  }
+    /* footer {
+      width: 1024px;
+      position: static;
+    } */
      
     .nav-itens {
       display: none;
@@ -74,6 +82,9 @@
   }
 
 
+  .footer p {
+    margin: 0;
+  }
 
   
 }
