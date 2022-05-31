@@ -1,10 +1,9 @@
-
 main {
     position: relative;
     padding-top: 100px;
     margin: 0 auto;
     background-color: #0C0D0D;
-    
+
 }
 
 .dados-e-avatar {
@@ -14,11 +13,10 @@ main {
 }
 
 .dados-completo {
-    /* width: 40%; */
     display: inline-block;
     position: relative;
     top: 10px;
-    left: 170px;    
+    left: 170px;
 }
 
 .dados-pessoais h1 {
@@ -47,21 +45,17 @@ main {
 .avatar {
     display: inline-block;
     position: relative;
-    left: 150px;   
-    top: 5px; 
+    left: 150px;
+    top: 5px;
 }
 
 
 #foto-yoda {
     border-radius: 60%;
     border: solid 4px #F2BB13;
-    width:60%;
+    width: 60%;
     margin: 0 0 0 50px;
-    /*position: relative; */
-    /* left: 20px; */
-    /* top: 30px; */
-    /* display: inline-block; */
-} 
+}
 
 .dados-contatos {
     display: inline-block;
@@ -90,22 +84,23 @@ main {
 
 .redes-sociais ul li {
     padding: 7px 0 7px 0;
-    
+
 }
 
 .container-main {
-    background-color:#201f24;
+    background-color: #201f24;
 }
+
 .img-icon:hover {
     cursor: pointer;
     transform: scale(1.25);
 }
 
-.conteudo-central{
+.conteudo-central {
     color: #FFFFFF;
     width: 1020px;
     /* text-align: center; */
-    padding-top: 50px ;
+    padding-top: 50px;
     margin: 0 auto;
 
 }
@@ -136,59 +131,29 @@ main {
     display: inline-block;
 }
 
-/* #sobre-mim h3 {
-    position: relative;
-    left: 200px;
-    top: -150px;
-} */
-
-/* #sobre-mim p {
-    width: 40%;
-    padding-left: 10px;
-    font-size: 20px;
-} */
-
-/* .textos-centralizados h3 {
-    padding-left: 50px;
-} */
-
 .container-caixa {
     width: 350px;
     height: 80px;
     display: inline-block;
-    /* border: solid 5px #0c080f; */
     text-align: center;
     background-color: #0c080f;
     margin-bottom: 20px;
 }
 
-.container-caixa li, .container-caixa p {
+.container-caixa li,
+.container-caixa p {
     padding-top: 15px;
 }
 
-/* .textos-centralizados li, #texto-interesse-apresentado {
-    width: 40%;
-    display: inline-block;
-    height: 70px;
-    /* border: solid 5px #0c080f; */
-    
-    /*padding: 5px 0 0 5px;
-    background-color: #000000;
-    font-size: 18px;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-} */
- 
 #formacao h3 {
     padding-top: 30px;
 }
+
 #interesses img {
     padding: 10px 5px 20px;
     position: relative;
     left: 30px;
-} 
+}
 
 #interesses img:hover {
     cursor: pointer;
@@ -201,5 +166,5 @@ main {
 
 #texto-interesse-apresentado {
     margin-left: 125px;
-    width: 32% ;
+    width: 32%;
 }

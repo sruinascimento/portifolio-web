@@ -23,3 +23,20 @@ function mostraTexto(idInteresse) {
     textoASerMostrado.innerHTML = textoInteresses[idInteresse];
 
 }
+
+const MENU_MOBILE = document.querySelector('#menu-hamburguer');
+const MENU_SAIR = document.querySelector('#menu-exit');
+const NAV_OCULTO = document.querySelector('.nav-itens-mobile');
+const CAIXA_MENU = document.querySelector('.menu-aberto');
+
+MENU_MOBILE.onclick = (event) => {
+    NAV_OCULTO.classList.remove('elemento-oculto');
+    MENU_MOBILE.classList.add('elemento-oculto');
+    CAIXA_MENU.classList.remove('elemento-oculto');
+}
+
+MENU_SAIR.onclick = (event) => {
+    NAV_OCULTO.classList.add('elemento-oculto');
+    MENU_MOBILE.classList.remove('elemento-oculto');
+    CAIXA_MENU.classList.add('elemento-oculto');
+}

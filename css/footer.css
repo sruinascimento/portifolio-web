@@ -12,15 +12,14 @@ footer p {
 }
 
 footer div p {
-    margin-top: 10px ;
+    margin-top: 10px;
 }
 
 .footer-centralizado a {
-    /* text-decoration: none; */
     color: #F2BB13;
 }
 
 .footer-centralizado a:hover {
     transition: 0.2s;
     color: #A65D03;
-} 
+}

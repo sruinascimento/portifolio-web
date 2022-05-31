@@ -4,57 +4,78 @@
     width: 1024px;
     position: absolute;
   }
-    /* footer {
-      width: 1024px;
-      position: static;
-    } */
-     
-    .nav-itens {
-      display: none;
-    }
 
-    .nav-mobile {
-        /* display: inline-block; */
-        position: absolute;
-    }
-  .nav-mobile:hover {
-    cursor: pointer;
-  } 
-
-   body {
-      width: 1024px;
-  } 
-
-  main {
-      margin: o auto;
+  .nav-itens {
+    display: none;
   }
 
-  .conteudo-central section, #sobre-mim, #display-oculto-amostra {
+  .nav-mobile {
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    top: 100%;
+  }
+
+  .menu-aberto {
+    position: fixed;
+    z-index: 1;
+    background-color:#0C0D0D;
+    width: 200px;
+    height: 200px;
+  }
+
+  .nav-itens-mobile li{
+    padding-bottom: 10px;
+  }
+
+  .nav-itens-mobile a{
+    color: #F2BB13;
+  }
+  .elemento-oculto {
+    display: none;
+  }
+
+  .nav-mobile:hover {
+    cursor: pointer;
+  }
+
+  body {
+    width: 1024px;
+  }
+
+  main {
+    margin: o auto;
+  }
+
+  .conteudo-central section,
+  #sobre-mim,
+  #display-oculto-amostra {
     width: 400px;
     margin: 0 auto;
   }
+
   .dados-e-avatar {
-      height: 520px;
+    height: 520px;
   }
 
   .avatar {
-      width: 30%;
-      position: relative;
-      top: -40px;
-      left: -30px;
+    width: 30%;
+    position: relative;
+    top: -40px;
+    left: -30px;
   }
 
   .dados-completo {
-      position: relative;
-      top: 200px;
-      left: 300px;
+    position: relative;
+    top: 200px;
+    left: 300px;
   }
 
   .redes-sociais {
-      position: relative;
-      top: 260px;
-      /* right: -100px; */
-      left: -270px;
+    position: relative;
+    top: 260px;
+    /* right: -100px; */
+    left: -270px;
   }
 
   .redes-sociais ul li {
@@ -62,7 +83,7 @@
     padding: 0 5px;
   }
 
-   
+
   .container-sobre-mim {
     width: 88%;
   }
@@ -86,5 +107,4 @@
     margin: 0;
   }
 
-  
 }
