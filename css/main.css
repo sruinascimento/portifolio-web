@@ -156,7 +156,7 @@ main {
     left: 30px;
 }
 
-#interesses img:hover {
+#interesses img {
     cursor: pointer;
     transition: 0.7s;
     transform: scale(1.25);
