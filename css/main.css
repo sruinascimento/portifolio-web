@@ -33,14 +33,15 @@ main {
 }
 
 .dados-pessoais h1 {
-    font-size: 62px;
+    font-size: 50px;
     /* margin-bottom: 20px; */
+    font-weight: bold;
 
 }
 
 .dados-pessoais h2 {
-    font-size: 32px;
-    margin-top: 10px;
+    font-size: 24px;
+    margin-top: 5px;
     margin-bottom: 25px;
 }
 
@@ -52,7 +53,7 @@ main {
 
 
 .imagem-avatar {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .avatar {
@@ -68,6 +69,7 @@ main {
     width: 65%;
     position: relative;
     left: 20px;
+    /* top: 30px; */
 } 
 
 .dados-contatos {
