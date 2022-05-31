@@ -12,16 +12,17 @@
   .nav-mobile {
     display: inline-block;
     position: relative;
-    left: 800px;
-    top: 100%;
+    left: 80%;
   }
 
   .menu-aberto {
     position: fixed;
+    right: inherit;
     z-index: 1;
     background-color:#0C0D0D;
     width: 200px;
     height: 200px;
+    
   }
 
   .nav-itens-mobile li{
