@@ -3,7 +3,6 @@ const INTERESSES =  document.querySelectorAll('.img-interesse');
 for (let i = 0; i < INTERESSES.length; i++) {
     INTERESSES[i].onclick = (event) => {
         let idInteresse = INTERESSES[i].id 
-        console.log(idInteresse);
         mostraTexto(idInteresse);
     }
 }
