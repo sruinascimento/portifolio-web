@@ -1,17 +1,45 @@
 footer {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #0C0D0D;
-    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--color-background-primary);
+    font-size: 14px;
 }
 
 footer p {
-    margin-bottom: 10px;
     display: inline-block;
 }
 
-footer div p {
+footer p a {
+    color: var(--color-text);
+    transition: 0.7s;
+}
+
+footer p a:hover {
+    color: #BF6B04;
+}
+
+footer span {
+    margin-top: 30px;
+    display: block;
+    line-height: 22px;
+}
+
+/* footer p {
+    display: inline-block;
+
+} */
+
+/* .container-footer-centralizado {
+    margin-top: 40px;
+} */
+
+/* footer p {
+    margin-bottom: 10px;
+    display: inline-block;
+} */
+
+/* footer div p {
     margin-top: 10px;
 }
 
@@ -22,4 +50,4 @@ footer div p {
 .footer-centralizado a:hover {
     transition: 0.7s;
     color: #A65D03;
-}
+} */

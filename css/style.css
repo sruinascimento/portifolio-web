@@ -1,6 +1,16 @@
+:root {
+    --color-text: #F2BB13;
+    --color-text-second: #FFFFFF;
+    --color-background-primary:  #0C0D0D;
+    --color-background-second: #201F24;
+}
+
+
 body {
-    color: #F2BB13;
+    color: var(--color-text);
     font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background-primary);
+    /* width: 300vh; */
 }
 
 

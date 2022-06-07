@@ -4,8 +4,35 @@ header {
     height: 50px;
     z-index: 1;
     position: fixed;
+    top: 0;
 }
 
+.nav-itens {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav-itens li {
+    display: inline-block;
+}
+
+.nav-itens li:not(:last-child):after {
+    content: "•";
+    font-size: 18px;
+    padding: 0 15px 0;
+} 
+.decoracao-link-nav {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+
+}
+
+.nav-itens li:not(:last-child):after {
+    content: "•";
+    font-size: 18px;
+} 
+/*
 .nav-mobile {
     display: none;
 }
@@ -32,4 +59,4 @@ header ul {
     color: #F2BB13;
     font-size: 18px;
     margin: 0 10px;
-}
+} */

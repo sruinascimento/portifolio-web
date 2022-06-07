@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">                    
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/mobile.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="nav-itens">
-                    <li><a href="#sobre-mim">sobre mim</a></li>
-                    <li><a href="#formacao">formação</a></li>
-                    <li><a href="#experiencias">experiências</a></li>
-                    <li><a href="#habilidades">habilidades</a></li>
-                    <li><a href="#interesses">interesses</a></li>
-                </ul>
-            </nav>
-            <div class="nav-mobile">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- <link rel="stylesheet" href="./css/mobile.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-itens">
+                <li><a class="decoracao-link-nav" href="#sobre-mim">sobre mim</a></li>
+                <li><a class="decoracao-link-nav" href="#formacao">formação</a></li>
+                <li><a class="decoracao-link-nav" href="#experiencias">experiências</a></li>
+                <li><a class="decoracao-link-nav" href="#habilidades">habilidades</a></li>
+                <li><a class="decoracao-link-nav" href="#interesses">interesses</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="nav-mobile">
                 <img src="./icon/menu-hamburguer.svg" id="menu-hamburguer" alt="menu hamburguer">
                 <div class="menu-aberto elemento-oculto">
                     <img src="./icon/menu-exit.svg" id="menu-exit" alt="menu exit">
@@ -38,147 +41,107 @@
                         </ul>
                     </nav>
                 </div>
+            </div> -->
+    </header>
+    <main>
+        <section class="dados-e-avatar">
+            <div class="dados-primarios">
+                <h1>Rui Nascimento</h1>
+                <h2>Desenvolvedor Back-end</h2>
+                <div class="dados">
+                    <img src="./icon/email-3.svg" alt="icone de email">
+                    <p>rui.nascimento@alura.com.br</p>
+                </div>
+                <div class="dados">
+                    <img src="./icon/whatsapp-3.svg" alt="icone de email">
+                    <p>(94) 98813-0501</p>
+                </div>
+                <div class="dados">
+                    <img src="./icon/location.svg" alt="icone de email">
+                    <p>Tucuruí-PA/Brasil</p>
+                </div>
             </div>
-           
-        </header>
-        <main>
-            
-            <section class="dados-e-avatar">
-                <div class="dados-completo">
-                    <div class="dados-pessoais">
-                        <h1>Rui Nascimento</h1>
-                        <h2>Desenvolvedor Back-end</h2>
-                    </div>
-        
-                    <div class="contato">
-                        <div class="dados">
-                            <img src="./icon/email-3.svg" alt="icone de email">
-                            <p>rui.nascimento@alura.com.br</p>
-                        </div>
-                        <div class="dados">
-                            <img src="./icon/whatsapp-3.svg" alt="icone de email">
-                            <p>(94) 98813-0501</p>
-                        </div>
-                        <div class="dados">
-                            <img src="./icon/location.svg" alt="icone de email">
-                            <p>Tucuruí-PA/Brasil</p>
-                     
-                        </div>
-                    </div>
+            <div class="avatar-redes">
+                <img src="./icon/baby-yoda.svg" class="baby-yoda" alt="avatar do Baby Yoda">
+                <ul>
+                    <li><a href="https://github.com/sruinascimento" target="_blank"><img class="img-icon"
+                                src="./icon/iconmonstr-github-3.svg" alt="logo do github"></a></li>
+                    <li><a href="https://www.linkedin.com/in/sruinascimento/" target="_blank"><img class="img-icon"
+                                src="./icon/iconmonstr-linkedin-3.svg" alt="logo do linkedin"></a></li>
+                    <li><a href="https://www.facebook.com/sruinascimento" target="_blank"><img class="img-icon"
+                                src="./icon/iconmonstr-facebook-3.svg" alt="logo do facebook"></a></li>
+                    <li><a href="https://www.instagram.com/sruinascimento/" target="_blank"><img class="img-icon"
+                                src="./icon/iconmonstr-instagram-13.svg" alt="logo do instagram"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="container-main">
+            <section id="sobre-mim">
+                <img src="./icon/rebelde.svg" alt="">
+                <div class="um-pouco-sobre-mim">
+                    <h3 class="formatacao-subtitulo">Sobre mim</h3>
+                    <p>
+                        Olá, me chamo Rui. Sou granduando em Engenharia de Computação, estou me especializando em
+                        desenvolvimento
+                        back-end. Estou sempre estudando para adquirir novos conhecimentos. Gosto de jogos, séries e
+                        principalmente de açaí.
+                    </p>
                 </div>
-                
-                <div class="avatar">
-                    <div class="imagem-avatar">
-                        <img id="foto-yoda" src="./icon/baby-yoda.svg" alt="avatar do Darth Vader">
-                    </div>
-                </div>
-                
-                <div class="redes-sociais">
-                    <ul>
-                        <li><a href="https://github.com/sruinascimento" target="_blank"><img class="img-icon" src="./icon/iconmonstr-github-3.svg" alt="logo do github"></a></li>
-                        <li><a href="https://www.linkedin.com/in/sruinascimento/" target="_blank"><img class="img-icon" src="./icon/iconmonstr-linkedin-3.svg" alt="logo do linkedin"></a></li>
-                        <li><a href="https://www.facebook.com/sruinascimento" target="_blank"><img class="img-icon" src="./icon/iconmonstr-facebook-3.svg" alt="logo do facebook"></a></li>
-                        <li><a href="https://www.instagram.com/sruinascimento/" target="_blank"><img class="img-icon" src="./icon/iconmonstr-instagram-13.svg" alt="logo do instagram"></a></li>
-                    </ul>
-                </div>
+
+
             </section>
-            
-            <section class="container-main">
-               <div class="conteudo-central">
-                <section id="sobre-mim">
-                    <!-- <img src="./images/sabre_200.png" alt=""> -->
-                    <img src="./icon/rebelde.svg" alt="">
-                        <div class="container-sobre-mim">
-                            <h3>Sobre mim</h3>
-                            <p>
-                                Olá, me chamo Rui. Sou granduando em Engenharia de Computação, estou me especializando em desenvolvimento
-                                back-end. Estou sempre estudando para adquirir novos conhecimentos. Gosto de jogos, séries e principalmente de açaí.
-                            </p>
-                        </div>
-                </section>
-                
-                <section id="formacao" class="textos-centralizados">
-                    <h3>Formação</h3>
-                    <ul>
-                        <div class="container-caixa">
-                            <li>Ensino médio técnico integrado ao ensino médio: Manutenção de Computadores e Informática - IFPA Campus Tucuruí.</li>
-                        </div>
-                        <div class="container-caixa">
-                            <li>Ensino Superior: Bacharelado em Engenharia de Computação - UFPA Campus Tucuruí.(em andamento)</li>
-                        </div>
-                    </ul>
-                </section>
 
-                <section id="experiencias" class="textos-centralizados">
-                    <h3>Experiências</h3>
-                    <ul>
-                        <div class="container-caixa">
-                            <li>Prepara Cursos Profissionalizantes: Técnico em Manutenção de Computadores. Estágio</li>
-                        </div>
-                        <div class="container-caixa">
-                            <li>Escritório de Contabilidade Mezzomo: Desenvolvedor Back-end NodeJS. Estágio.</li>
-                        </div>
-                        <div class="container-caixa">
-                            <li>Alura para Empresas: Desenvolvedor Back-end. Estágio (atual).</li>
-                        </div>
-                    </ul>
-                </section>
-    
-                <section id="habilidades" class="textos-centralizados">
-                    <h3>Habilidades</h3>
-                    <ul>
-                        <div class="container-caixa">
-                            <li>
-                                Front-end: Html, CSS e Javascritp.
-                            </li>
-                        </div>
+            <section id="formacao">
+                <h3 class="formatacao-subtitulo">Formação</h3>
+                <ul>
+                    <li class="container-caixa">Ensino médio técnico integrado ao ensino médio: Manutenção de
+                        Computadores e Informática - IFPA Campus Tucuruí.</li>
+                    <li class="container-caixa">Ensino Superior: Bacharelado em Engenharia de Computação - UFPA Campus
+                        Tucuruí.(em andamento)</li>
+                </ul>
+            </section>
 
-                        <div class="container-caixa">
-                            <li>
-                                Back-end: NodeJS, Java, Python e PHP.
-                            </li>
-                        </div>
-                        
-                        <div class="container-caixa">
-                            <li>
-                                Banco de Dados: MySQL, PostgreSQL e MongoDB.
-                            </li>
-                        </div>
-                            
-                    </ul>
-                </section>
+            <section id="experiencias">
+                <h3 class="formatacao-subtitulo">Experiências</h3>
+                <ul>
+                    <li class="container-caixa">Prepara Cursos Profissionalizantes: Técnico em Manutenção de
+                        Computadores. Estágio</li>
+                    <li class="container-caixa">Escritório de Contabilidade Mezzomo: Desenvolvedor Back-end NodeJS.
+                        Estágio.</li>
+                    <li class="container-caixa">Alura para Empresas: Desenvolvedor Back-end. Estágio (atual).</li>
+                </ul>
+            </section>
 
-                <section id="interesses" class="textos-centralizados">
-                    <h3>
-                        Interesses
-                    </h3>
-                    <img class="img-interesse" id="r2d2" src="./icon/r2d2.svg" alt="ícone r2d2">
-                    <img class="img-interesse" id="vader" src="./icon/vader.svg" alt="ícone do vader">
-                    <img class="img-interesse" id="stormtrooper" src="./icon/stormtrooper.svg" alt="ícone do stormtrooper">
-                    <img class="img-interesse" id="sabre" src="./icon/sabre.svg" alt="ícone de um sabre">
-                </section>
-                <div class="display-texto-interesse textos-centralizados" id="display-oculto-amostra">
-                    <div class="container-caixa">
-                        <p id="texto-interesse-apresentado"></p>
-                    </div>
-                </div>
-                </div>
-           </section>
-            
-        </main>
+            <section id="habilidades">
+                <h3 class="formatacao-subtitulo">Habilidades</h3>
+                <ul>
+                    <li class="container-caixa"> Front-end: Html, CSS e Javascritp.</li>
+                    <li class="container-caixa"> Back-end: NodeJS, Java, Python e PHP. </li>
+                    <li class="container-caixa"> Banco de Dados: MySQL, PostgreSQL e MongoDB. </li>
+                </ul>
+            </section>
 
-        <footer>
-            <div class="footer-centralizado">
-                <img src="./icon/contatc-mobile.svg" alt="Ícone para contato">
-                <p>Fale comigo através do</p>
-                <p> <a href="mailto:rui.nascimento@alura.com.br">e-mail</a> ou do </p>
-                <p> <a href="https://web.whatsapp.com/send?phone=5594988130501">WhatsaApp</a></p>
-                <div>
-                    <p>Rui Nascimento<br>2022</p>
-                </div>
-            </div>
-        </footer>
-        
-        <script src="main.js"></script>
-    </body>
+            <section id="interesses">
+                <h3 class="formatacao-subtitulo">Interesses</h3>
+                <img class="img-interesse" id="r2d2" src="./icon/r2d2.svg" alt="ícone r2d2">
+                <img class="img-interesse" id="vader" src="./icon/vader.svg" alt="ícone do vader">
+                <img class="img-interesse" id="stormtrooper" src="./icon/stormtrooper.svg" alt="ícone do stormtrooper">
+                <img class="img-interesse" id="sabre" src="./icon/sabre.svg" alt="ícone de um sabre">
+                <ul>
+                    <li id="texto-interesse" class="container-caixa container-interesse-oculto"> Texto Interesse</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img src="./icon/contatc-mobile.svg" alt="Ícone para contato">
+        <p>Fale comigo através do <a href="mailto:rui.nascimento@alura.com.br" target="_blank">E-mail</a> ou do <a
+                href="https://web.whatsapp.com/send?phone=5594988130501" target="_blank">WhatsaApp</a></p>
+        <span class="">Rui Nascimento<br>2022</span>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
 </html>
