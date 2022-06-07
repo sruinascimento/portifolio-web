@@ -32,6 +32,11 @@ header {
     content: "•";
     font-size: 18px;
 } 
+
+.nav-mobile {
+    display: none;
+}
+
 /*
 .nav-mobile {
     display: none;

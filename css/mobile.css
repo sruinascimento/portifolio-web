@@ -1,9 +1,105 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 970px) {
 
-  header {
-    width: 1024px;
+   header {
     position: absolute;
   }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block ;
+  }
+
+  .dados-e-avatar {
+    /* position: relative; */
+    /* padding-top: 0; */
+    /* margin-top: 160px; */
+    /* text-align: center; */
+    /* height: 200px; */
+    width: 330px;
+    height: 350px;
+    /* margin: 200px auto 0; */
+    padding-top: 210px;
+    margin-left: 20px;
+    /* margin: 0 auto; */
+  }
+
+
+  .dados-e-avatar,
+  #sobre-mim,
+  #formacao,
+  #experiencias,
+  #habilidades,
+  #interesses {
+    width: auto;
+  }
+
+  .dados-primarios {
+    /* width: 90%; */
+    margin: 0 auto;
+    /* text-align: center  ; */
+    display: block;
+  }
+
+  .dados-primarios h1 {
+    font-size: 40px;
+  }
+
+  .dados-primarios h2 {
+    font-size: 20px;
+  }
+  .baby-yoda {
+    width: 140px;
+    position: absolute;
+    /* top: 1; */
+    top: -410px;
+    left: 80px;
+  }
+
+  .avatar-redes ul {
+    width: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .container-main h3 {
+    margin-left: 35px;
+  }
+
+  #sobre-mim {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #sobre-mim img {
+    margin-left: auto;
+  }
+
+  .um-pouco-sobre-mim {
+    /* margin-left: auto; */
+    /* text-align: center; */
+    margin-left: 0;
+  }
+  .um-pouco-sobre-mim h3 {
+    /* margin: 20px 0; */
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+  }
+  .um-pouco-sobre-mim p {
+    font-size: 14px;
+    line-height: 15px;
+    width: 90%;
+  }
+
+  .container-caixa {
+    width: 330px;
+    font-size: 16px;
+    height: 60px;
+  }
+  /*
 
   .nav-itens {
     display: none;
@@ -75,7 +171,6 @@
   .redes-sociais {
     position: relative;
     top: 260px;
-    /* right: -100px; */
     left: -270px;
   }
 
@@ -106,6 +201,6 @@
 
   .footer p {
     margin: 0;
-  }
+  } */
 
 }
