@@ -119,6 +119,7 @@ main {
 
 .um-pouco-sobre-mim p {
     color: var(--color-text-second);
+    text-align: justify;
 }
 
 .container-caixa {
@@ -133,6 +134,7 @@ main {
     margin-left: 30px;
     margin-top: 30px;
     text-align: center;
+    background-color:  var(--color-background-primary);
 }
 
 
@@ -150,185 +152,8 @@ main {
 
 #interesses ul li {
     margin-bottom: 30px;
-    /* font-size: 16px; */
 }
 
 .container-interesse-oculto {
     display: none;
 }
-
-
-/* .dados-primario, .avatar-redes {
-    display: inline-block;
-} */
-/* main {
-    position: relative;
-    padding-top: 100px;
-    margin: 0 auto;
-    background-color: #0C0D0D;
-
-}
-
-.dados-e-avatar {
-    width: 1020px;
-    height: 300px;
-    margin: 0 auto;
-}
-
-.dados-completo {
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    left: 170px;
-}
-
-.dados-pessoais h1 {
-    font-size: 50px;
-    font-weight: bold;
-
-}
-
-.dados-pessoais h2 {
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 25px;
-}
-
-.dados p {
-    color: #FFFFFF;
-}
-
-.dados {
-    margin: 15px 0;
-    vertical-align: middle;
-}
-
-
-
-.avatar {
-    display: inline-block;
-    position: relative;
-    left: 150px;
-    top: 5px;
-}
-
-
-#foto-yoda {
-    border-radius: 60%;
-    border: solid 4px #F2BB13;
-    width: 60%;
-    margin: 0 0 0 50px;
-}
-
-.dados-contatos {
-    display: inline-block;
-}
-
-.avatar-redes {
-    width: 40%;
-    display: inline-block;
-}
-
-
-.dados p {
-    display: inline-block;
-    position: relative;
-    top: -5px;
-    left: 10px;
-    font-size: 20px;
-}
-
-.redes-sociais {
-    display: inline-block;
-    position: relative;
-    left: 80px;
-    top: -30px
-}
-
-.redes-sociais ul li {
-    padding: 7px 0 7px 0;
-
-}
-
-.container-main {
-    background-color: #201f24;
-}
-
-.img-icon:hover {
-    cursor: pointer;
-    transform: scale(1.25);
-    transition: 0.7s;
-}
-
-.conteudo-central {
-    color: #FFFFFF;
-    width: 1020px;
-    padding-top: 50px;
-    margin: 0 auto;
-
-}
-
-.conteudo-central h3 {
-    font-size: 20.2px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    color: #F2BB13;
-}
-
-
-.textos-centralizados {
-    width: 800px;
-    margin: 0 auto;
-}
-
-#sobre-mim img {
-    margin-left: 150px;
-    margin-right: 50px;
-    border: solid 4px #0c080f;
-    box-shadow: 1px 1px 16px rgb(0 0 0);
-    border-radius: 3%;
-}
-
-.container-sobre-mim {
-    width: 40%;
-    display: inline-block;
-}
-
-.container-caixa {
-    width: 350px;
-    height: 80px;
-    display: inline-block;
-    text-align: center;
-    background-color: #0c080f;
-    margin-bottom: 20px;
-}
-
-.container-caixa li,
-.container-caixa p {
-    padding-top: 15px;
-}
-
-#formacao h3 {
-    padding-top: 30px;
-}
-
-#interesses img {
-    padding: 10px 5px 20px;
-    position: relative;
-    left: 30px;
-}
-
-#interesses img:hover {
-    cursor: pointer;
-    transition: 0.7s;
-    transform: scale(1.25);
-}
-
-.display-texto-interesse {
-    display: none;
-}
-
-#texto-interesse-apresentado {
-    margin-left: 125px;
-    width: 32%;
-} */
