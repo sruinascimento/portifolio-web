@@ -1,5 +1,10 @@
 @media screen and (max-width: 970px) {
 
+  /* body {
+    width: 80%;
+    margin: 0 auto;
+  } */
+
    header {
     position: absolute;
   }
@@ -10,6 +15,41 @@
 
   .nav-mobile {
     display: block ;
+  }
+
+  .elemento-oculto {
+    display: none;
+  }
+  .menu-hamburguer {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+
+  .menu-aberto {
+    position: fixed;
+    right: 60px;
+    top: 10px;
+    background-color: var(--color-background-primary);
+    width: 200px;
+    height: 250px;
+    border-radius: 16px;
+  }
+  
+  .menu-aberto ul {
+    text-align: center;
+    line-height: 30px;
+    padding-top: 70px;
+  }
+
+  .menu-aberto ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+  }
+
+  #menu-exit {
+    position: absolute;
+    right: 0;
   }
 
   .dados-e-avatar {
@@ -36,6 +76,9 @@
     width: auto;
   }
 
+  /* .container-main {
+    width: 430px;
+  } */
   .dados-primarios {
     /* width: 90%; */
     margin: 0 auto;
