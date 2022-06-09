@@ -36,32 +36,3 @@ header {
 .nav-mobile {
     display: none;
 }
-
-/*
-.nav-mobile {
-    display: none;
-}
-
-header ul {
-    width: 100%;
-    text-align: center;
-}
-
-.nav-itens li {
-    display: inline-block;
-    margin: auto 0;
-    padding-top: 1.15em;
-}
-
-.nav-itens li a {
-    color: #F2BB13;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.nav-itens li:not(:last-child):after {
-    content: "•";
-    color: #F2BB13;
-    font-size: 18px;
-    margin: 0 10px;
-} */

@@ -1,11 +1,6 @@
 @media screen and (max-width: 970px) {
 
-  /* body {
-    width: 80%;
-    margin: 0 auto;
-  } */
-
-   header {
+  header {
     position: absolute;
   }
 
@@ -14,12 +9,13 @@
   }
 
   .nav-mobile {
-    display: block ;
+    display: block;
   }
 
   .elemento-oculto {
     display: none;
   }
+
   .menu-hamburguer {
     position: absolute;
     right: 0px;
@@ -35,7 +31,7 @@
     height: 250px;
     border-radius: 16px;
   }
-  
+
   .menu-aberto ul {
     text-align: center;
     line-height: 30px;
@@ -52,20 +48,15 @@
     right: 0;
   }
 
+  main {
+    margin-top: 20px;
+  }
   .dados-e-avatar {
-    /* position: relative; */
-    /* padding-top: 0; */
-    /* margin-top: 160px; */
-    /* text-align: center; */
-    /* height: 200px; */
     width: 330px;
     height: 350px;
-    /* margin: 200px auto 0; */
     padding-top: 210px;
     margin-left: 20px;
-    /* margin: 0 auto; */
   }
-
 
   .dados-e-avatar,
   #sobre-mim,
@@ -76,13 +67,8 @@
     width: auto;
   }
 
-  /* .container-main {
-    width: 430px;
-  } */
   .dados-primarios {
-    /* width: 90%; */
     margin: 0 auto;
-    /* text-align: center  ; */
     display: block;
   }
 
@@ -93,10 +79,10 @@
   .dados-primarios h2 {
     font-size: 20px;
   }
+
   .baby-yoda {
     width: 140px;
     position: absolute;
-    /* top: 1; */
     top: -410px;
     left: 80px;
   }
@@ -106,35 +92,34 @@
     margin-top: 15px;
     margin-left: 15px;
   }
-  
+
   .container-main h3 {
     margin-left: 35px;
   }
 
   #sobre-mim {
-    width: 80%;
-    margin: 0 auto;
   }
 
   #sobre-mim img {
-    margin-left: auto;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+
+  .um-pouco-sobre-mim h3 {
+    margin-left: -15px;
   }
 
   .um-pouco-sobre-mim {
-    /* margin-left: auto; */
+    width: 300px;
+    margin-left: 50px;
     /* text-align: center; */
-    margin-left: 0;
+    /* padding-left: 10px; */
   }
-  .um-pouco-sobre-mim h3 {
-    /* margin: 20px 0; */
-    margin: 0;
-    padding: 0;
-    /* width: 100%; */
-  }
+
   .um-pouco-sobre-mim p {
     font-size: 14px;
     line-height: 15px;
-    width: 90%;
+    /* width: 90%; */
   }
 
   .container-caixa {
@@ -142,108 +127,13 @@
     font-size: 16px;
     height: 60px;
   }
-  /*
 
-  .nav-itens {
-    display: none;
+  footer {
+    font-size: 12px;
   }
-
-  .nav-mobile {
-    display: inline-block;
-    position: relative;
-    left: 80%;
+  footer img {
+    display: block;
+    margin: 0 auto 20px;
   }
-
-  .menu-aberto {
-    position: fixed;
-    right: inherit;
-    z-index: 1;
-    background-color:#0C0D0D;
-    width: 200px;
-    height: 200px;
-    
-  }
-
-  .nav-itens-mobile li{
-    padding-bottom: 10px;
-  }
-
-  .nav-itens-mobile a{
-    color: #F2BB13;
-  }
-  .elemento-oculto {
-    display: none;
-  }
-
-  .nav-mobile:hover {
-    cursor: pointer;
-  }
-
-  body {
-    width: 1024px;
-  }
-
-  main {
-    margin: o auto;
-  }
-
-  .conteudo-central section,
-  #sobre-mim,
-  #display-oculto-amostra {
-    width: 400px;
-    margin: 0 auto;
-  }
-
-  .dados-e-avatar {
-    height: 520px;
-  }
-
-  .avatar {
-    width: 30%;
-    position: relative;
-    top: -40px;
-    left: -30px;
-  }
-
-  .dados-completo {
-    position: relative;
-    top: 200px;
-    left: 300px;
-  }
-
-  .redes-sociais {
-    position: relative;
-    top: 260px;
-    left: -270px;
-  }
-
-  .redes-sociais ul li {
-    display: inline-block;
-    padding: 0 5px;
-  }
-
-
-  .container-sobre-mim {
-    width: 88%;
-  }
-
-  #sobre-mim img {
-    margin-left: 80px;
-    margin-bottom: 10px;
-  }
-
-  .footer-centralizado {
-    width: 240px;
-    margin: 0 auto;
-  }
-
-  .footer-centralizado img {
-    text-align: center;
-  }
-
-
-  .footer p {
-    margin: 0;
-  } */
 
 }
