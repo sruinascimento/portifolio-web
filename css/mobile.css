@@ -24,8 +24,7 @@
 
   .menu-aberto {
     position: fixed;
-    right: 60px;
-    top: 10px;
+    right: 10px;
     background-color: var(--color-background-primary);
     width: 200px;
     height: 250px;
